@@ -8,7 +8,7 @@
     "behavior"
   ],
   "extra": {
-    "name": "image",
+    "name": "file",
     "class": "Creonit\\PropelBehaviorBundle\\File\\FileBehavior"
   },
   "license": "GNU GPLv3"

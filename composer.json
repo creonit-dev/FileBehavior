@@ -9,7 +9,12 @@
   ],
   "extra": {
     "name": "file",
-    "class": "Creonit\\PropelBehaviorBundle\\File\\FileBehavior"
+    "class": "Creonit\\PropelFileBehavior\\FileBehavior"
   },
-  "license": "GNU GPLv3"
+  "license": "GNU GPLv3",
+  "autoload": {
+    "psr-4": {
+      "Creonit\\PropelFileBehavior\\": ""
+    }
+  }
 }

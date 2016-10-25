@@ -36,9 +36,4 @@ class FileBehavior extends Behavior
             $this->addFileColumn(trim($column));
         }
     }
-
-    public function objectMethods($builder)
-    {
-        return $this->renderTemplate('objectMethods', ['table' => $this->getTable(), 'columns' => explode(',', $this->getParameter('parameter'))]);
-    }
 }
